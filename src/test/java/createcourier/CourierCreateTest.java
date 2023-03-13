@@ -166,7 +166,11 @@ public class CourierCreateTest {
                 .and()
                 .assertThat()
                 .body("message", equalTo("Этот логин уже используется. Попробуйте другой."));
-
+        courierManager.removeCourier(courierId)
+                .assertThat()
+                .statusCode(SC_OK)
+                .and()
+                .body("ok", is(true));
     }
 
 
