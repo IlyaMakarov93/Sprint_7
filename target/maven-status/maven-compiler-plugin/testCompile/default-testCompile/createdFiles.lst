@@ -1,0 +1,5 @@
+createcourier/CourierRemove.class
+createcourier/CourierLoginTest.class
+createcourier/CourierCreateTest.class
+createorder/CreateOrderParametrizedTest.class
+listoforders/ListOfOrdersManagerTest.class
